@@ -7,7 +7,7 @@ import random
 import asyncio
 
 
-class roster(commands.Cog):
+class Giveaway(commands.Cog):
 
     def __init__(self, client):
         self.client = client
@@ -360,4 +360,4 @@ class roster(commands.Cog):
 
 
 def setup(client):
-    client.add_cog(roster(client))
+    client.add_cog(giveaway(client))
